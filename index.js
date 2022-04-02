@@ -514,9 +514,9 @@ sw =`┏━━━━━━━━━━━━━━⬣
 ┃⬡ TF - SEND BUKTI - JOIN GRUP
 ┃▰▰▰▰▰▰▰▰▰▰▰▰▰▰
 ┃ *PAYMENT*
-┃Dana : 0881-7864-684
-┃Ovo : 0823-1646-4080
-┃Pulsa : 0823-1646-4080
+┃Gopay : 0813-2860-8505
+┃Ovo : Nothing
+┃Pulsa : 0813-2860-8505
 ┃
 ┃Note :
 ┃Jika Sudah Transfer Wajib Kirim
@@ -549,7 +549,7 @@ st =`╭───❒ ♛ 𝙐𝙨𝙚𝙧 𝙄𝙣𝙛𝙤 ♛
 ╭──❒ ♛ 𝙄𝙉𝙁𝙊 𝘽𝙊𝙏 ♛
 ❒ 𝐍𝐚𝐦𝐞 : *${botName}*
 ❒ 𝐎𝐰𝐧𝐞𝐫 : *${ownerName}*
-❒ 𝐀𝐮𝐭𝐡𝐨𝐫 : *Lexxy Official*
+❒ 𝐀𝐮𝐭𝐡𝐨𝐫 : *Restaa Official*
 ❒ 𝐏𝐫𝐞𝐟𝐢𝐱 : *Multi Prefix*
 ❒ 𝐋𝐢𝐛 : *Baileys*
 ❒ 𝐓𝐲𝐩𝐞 : *NodeJS*
@@ -796,17 +796,6 @@ ${bb++}.${simbol} #wallpaperprogramming
 ${bb++}.${simbol} #wallpapermountain
 ${bb++}.${simbol} #wallpapertechnology
 ${bb++}.${simbol} #wallpapernaruto
-
-➢ 𝙉𝙚𝙠𝙤𝙥𝙤𝙞 𝙈𝙚𝙣𝙪
-${bb++}.${simbol} #nekopoi1
-${bb++}.${simbol} #nekopoi2
-${bb++}.${simbol} #nekopoi3
-${bb++}.${simbol} #nekopoi4
-${bb++}.${simbol} #nekopoi5
-${bb++}.${simbol} #nekopoi6
-${bb++}.${simbol} #nekopoi7
-${bb++}.${simbol} #nekopoi8
-${bb++}.${simbol} #nekopoi9
 
 ➢ 𝙂𝙧𝙖𝙥𝙝𝙞𝙘 𝙈𝙚𝙣𝙪
 ${bb++}.${simbol} #8bit
@@ -1067,9 +1056,9 @@ ${bb++}.${simbol} #sound23
 ${bb++}.${simbol} #sound24
 ${bb++}.${simbol} #sound25`
 but = [
-{ buttonId: `${prefix}scbot`, buttonText: { displayText: '𝙎𝙘𝙧𝙞𝙥𝙩 𝘽𝙤𝙩🎟️' }, type: 1 },
-{ buttonId: `${prefix}owner`, buttonText: { displayText: '️𝙊𝙬𝙣𝙚𝙧 𝘽𝙤𝙩🤖️' }, type: 1 },
-{ buttonId: `${prefix}store`, buttonText: { displayText: '️𝙎𝙩𝙤𝙧𝙚 𝙈𝙚𝙣𝙪🛒' }, type: 1 }
+{ buttonId: `${prefix}scbot`, buttonText: { displayText: 'SC Bot' }, type: 1 },
+{ buttonId: `${prefix}owner`, buttonText: { displayText: '️Owner Bot' }, type: 1 },
+{ buttonId: `${prefix}store`, buttonText: { displayText: '️Store menu' }, type: 1 }
 ]
 sendButLoc(from, st, st2, img1, but)
 Lexxy.sendMessage(from, yu, audio, { mimetype: 'audio/mp4', ptt:true })
@@ -1514,7 +1503,7 @@ res = await Lexxy.prepareMessageFromContent(from,{
 "listMessage": {
 "title": '「 STORE MENU 」',
 "description": `*Created By ${ownerName}*`,
-"buttonText": "𝙋𝙄𝙇𝙄𝙃 𝘿𝙄𝙎𝙄𝙉𝙄",
+"buttonText": "Pilih Disini",
 "listType": "SINGLE_SELECT",
 "sections": [
 {
